@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Echoes of the Savanna",
+      "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600",
+      "description": "A large-scale mural series celebrating African wildlife and landscapes. Commissioned for the lobby of a Nairobi hotel, the project spans 40 meters and blends traditional motifs with contemporary illustration techniques."
+    },
+    {
+      "id": 2,
+      "title": "Fragments Exhibition",
+      "imageUrl": "https://images.unsplash.com/photo-1531913764164-f85c52e6e654?w=600",
+      "description": "A mixed-media gallery exhibition exploring identity and memory through broken ceramics, photography, and textile. Displayed across three rooms, the installation invites viewers to piece together fragmented narratives."
+    },
+    {
+      "id": 3,
+      "title": "Urban Pulse Brand Identity",
+      "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600",
+      "description": "A full brand identity project for a streetwear label rooted in urban African culture. Deliverables included logo design, typography system, color palette, packaging, and a lookbook shot on location in Nairobi CBD."
+    },
+    {
+      "id": 4,
+      "title": "Light & Shadow Portrait Series",
+      "imageUrl": "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?w=600",
+      "description": "A fine art photography series studying how natural light interacts with the human form across different times of day. Printed on archival paper and exhibited at a regional arts festival, the series features 20 large-format prints."
+    },
+    {
+      "id": 5,
+      "title": "Hadithi Animated Short",
+      "imageUrl": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=600",
+      "description": "A 6-minute hand-drawn animated short film retelling an East African folktale through a modern visual lens. The project involved a team of 8 illustrators and was officially selected for two international animation festivals."
+    }
+  ]
+}
