@@ -7,14 +7,12 @@ import ViewProjects from './components/ViewProjects'
 import AddProjectsForm from './components/AddProjectsForm'
 
 function App() {
-  const [count, setCount] = useState(0)
   const [projects, setProjects] = useState(data.projects)
   const [formInput, setFormInput] = useState({
     title: '',
     description: ''
   })
-  
-  const warningMsg = useRef(null)
+  const [showWarning, setShowWarning] = useState(false)
   const handleChange = (e) => {
     setFormInput({...formInput, [e.target.name]: e.target.value})
   
@@ -23,10 +21,8 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
     if (formInput.title.trim() === '' || formInput.description.trim() === '') {
-      warningMsg.current.classList.replace('hidden', 'warning')
-      setTimeout(() => {
-        warningMsg.current.classList.replace('warning', 'hidden')
-      }, 3000)
+      setShowWarning(true)
+      setTimeout(() => setShowWarning(false), 3000)
     }else {
     const newProject = {
       id: projects.length + 1,
@@ -46,7 +42,7 @@ function App() {
     <Header />
     <Hero />
     <ViewProjects projects={projects} />
-    <AddProjectsForm formInput={formInput} handleChange={handleChange} handleSubmit={handleSubmit} warningMsg={warningMsg}/>
+    <AddProjectsForm formInput={formInput} handleChange={handleChange} handleSubmit={handleSubmit} showWarning={showWarning}/>
     </>
   )
 }
