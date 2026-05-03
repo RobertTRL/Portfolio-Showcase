@@ -8,7 +8,7 @@ export default function Header() {
                 <a href="#hero">Home</a>
                 <a href="#search">Search</a>
                 <a href="#projects">View projects</a>
-                <a href="">Add Project</a>
+                <a href="#add-form">Add Project</a>
             </nav>
         </header>
     )

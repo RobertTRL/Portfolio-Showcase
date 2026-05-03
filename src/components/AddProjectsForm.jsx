@@ -1,6 +1,6 @@
 export default function AddProjectsForm({ formInput, handleChange, handleSubmit, showWarning}) {
    return (
-        <div className="add-form">
+        <div className="add-form" id="add-form">
             <h3>Add Project</h3>
             {showWarning && <p className="warning">Please enter a title and/or description for your project.</p>}
             <form onSubmit={handleSubmit}>
